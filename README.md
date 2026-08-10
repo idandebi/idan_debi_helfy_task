@@ -56,4 +56,4 @@ title and priority are required when creating a task, bad requests return 400.
 - Backend: ~1.5h
 - Frontend: ~2h
 - Styling: ~30 min
-- Testing/fixing bugs: ~30 min
+- Testing/fixing bugs: ~15 min
