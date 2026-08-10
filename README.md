@@ -43,3 +43,17 @@ Task object:
 
 title and priority are required when creating a task, bad requests return 400.
 
+## Notes
+
+- No database, tasks live in memory and reset when the backend restarts.
+- Carousel shows one task at a time, loops forever both ways, autoplays every few seconds and pauses on hover. Arrows and dots also work.
+- Delete uses window.confirm, didn't build a custom modal for it.
+- Edit reuses the same form as adding a task, just pre-filled with the task's data.
+- Plain CSS, no framework.
+
+## Time spent
+
+- Backend: ~1.5h
+- Frontend: ~2h
+- Styling: ~30 min
+- Testing/fixing bugs: ~30 min
