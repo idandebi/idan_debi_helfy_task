@@ -19,6 +19,3 @@ yarn-error.log*
 # os
 .DS_Store
 
-# editor
-.vscode/
-.idea/
